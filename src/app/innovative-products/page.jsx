@@ -117,26 +117,15 @@ export default function InnovativeProduct() {
       </div>
 
       <div>
-        <section className="my-8">
-          <div className="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
-            <h1 className="text-4xl font-semibold leading-none text-center">
-              What our customers are saying about us
-            </h1>
-          </div>
-          <div className="container mx-auto grid grid-cols-1 gap-8 justify-center lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-2">
-            <div className="flex flex-col items-center mx-12 lg:mx-0">
-              <div className="relative text-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  fill="currentColor"
-                  className="absolute top-0 left-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-                  <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-                </svg>
-                <p className="px-6 py-1 text-base italic text-[#b21f29]">
-                  Sinarmas memiliki banyak proyek di Indonesia seperti di BSD,
+        <div className="carousel w-full">
+          <div id="item1" className="carousel-item w-full">
+            <div className="w-full bg-[url('/car1.jpeg')] object-cover relative ">
+              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
+                <h1 className="text-white text-3xl">
+                  What our customers are saying about us
+                </h1>
+                <p className=" text-center pt-8 text-lg text-white">
+                  " Sinarmas memiliki banyak proyek di Indonesia seperti di BSD,
                   Jakarta,Tangerang, Kota Wisata maupun Grand Wisata. BSD
                   sendiri memiliki banyak pekerjaan proyek yang sudah selesai
                   maupun sedang berjalan seperti Ice BSD, The Breeze, Green
@@ -150,151 +139,71 @@ export default function InnovativeProduct() {
                   precast, SCG Bata Ringan, SCG Semen, dan Jayamix by SCG.
                   Produk SCG memiliki kualitas yang baik. Pengerjaan project
                   juga bisa lebih hemat secara waktu dan tenaga kerja, secara
-                  pembelian juga praktis dan mudah.
+                  pembelian juga praktis dan mudah. "
                 </p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  fill="currentColor"
-                  className="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-                  <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-                </svg>
+                <p className="mt-4 text-white">
+                  — Bapak Purwanto – Quantity Surveyor Commercial Sinarmasland
+                </p>
               </div>
-              <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-600"></span>
-              <p>
-                — Bapak Purwanto – Quantity Surveyor Commercial Sinarmasland
-              </p>
             </div>
-            <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
-              <div className="relative text-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  className="absolute top-0 left-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"
-                  ></path>
-                  <path
-                    fill="currentColor"
-                    d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"
-                  ></path>
-                </svg>
-                <p className="px-6 py-1 text-base italic">
-                  Kualitas SCG sudah terbukti bagus dengan harga yang
+          </div>
+          <div id="item2" className="carousel-item w-full">
+            <div className="w-full bg-[url('/car1.jpeg')] object-cover relative ">
+              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
+                <h1 className="text-white text-3xl">
+                  What our customers are saying about us
+                </h1>
+                <p className=" text-center pt-8 text-lg text-white">
+                  " Kualitas SCG sudah terbukti bagus dengan harga yang
                   terjangkau. Tidak kalah dengan produk - produk lain yang mahal
                   harganya. Selain itu, SCG juga ramah lingkungan karena
                   memiliki sertifikat green label. SCG memiliki performa baik
                   dan berkualitas. Dengan produk SCG, pengerjaan project juga
                   bisa lebih efisien secara waktu dan tenaga kerja didukung
-                  dengan pembelian yang mudah.
+                  dengan pembelian yang mudah. "
                 </p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  className="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"
-                  ></path>
-                  <path
-                    fill="currentColor"
-                    d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"
-                  ></path>
-                </svg>
-              </div>
-              <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-600"></span>
-              <p>
-                — Direktur Utama PT. Wadaya Kreasi Sejatera, Kontraktor Sinarmas
-                Land Grand Wisata Bekasi
-              </p>
-            </div>
-            <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
-              <div className="relative text-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  className="absolute top-0 left-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"
-                  ></path>
-                  <path
-                    fill="currentColor"
-                    d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"
-                  ></path>
-                </svg>
-                <p className="px-6 py-1 text-base italic">
-                  Kalau dari segi aplikasi Semen SCG mudah diaplikasikan, kedua
-                  sangat kokoh, yang ketiga agak pengiritan dari segi untuk
-                  pengaplikasiannya.
+                <p className="mt-4 text-white">
+                  — Direktur Utama PT. Wadaya Kreasi Sejatera, Kontraktor
+                  Sinarmas Land Grand Wisata Bekasi
                 </p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  className="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"
-                  ></path>
-                  <path
-                    fill="currentColor"
-                    d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"
-                  ></path>
-                </svg>
               </div>
-              <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-600"></span>
-              <p>— Kepala Proyek Kanaya City, Sukabumi</p>
-            </div>
-            <div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
-              <div className="relative text-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  className="absolute top-0 left-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"
-                  ></path>
-                  <path
-                    fill="currentColor"
-                    d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"
-                  ></path>
-                </svg>
-                <p className="px-6 py-1 text-base italic text-[#b21f29]">
-                  Untuk kualitas SCG tentunya lebih baik dipakainya, lebih cepat
-                  keringnya, dan tidak ada retak rambut. Pokoknya SCG oke deh.
-                </p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  className="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-300"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"
-                  ></path>
-                  <path
-                    fill="currentColor"
-                    d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"
-                  ></path>
-                </svg>
-              </div>
-              <span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-600"></span>
-              <p>
-                — Bapak Didit – Mandor Bangunan Perumahan Annisa Cantik
-                Cikembar, Sukabumi
-              </p>
             </div>
           </div>
-        </section>
+          <div id="item3" className="carousel-item w-full">
+            <div className="w-full bg-[url('/car1.jpeg')] object-cover relative ">
+              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
+                <h1 className="text-white text-3xl">
+                  What our customers are saying about us
+                </h1>
+                <p className=" text-center pt-8 text-lg text-white">
+                  " Kalau dari segi aplikasi Semen SCG mudah diaplikasikan,
+                  kedua sangat kokoh, yang ketiga agak pengiritan dari segi
+                  untuk pengaplikasiannya. "
+                </p>
+                <p className="mt-4 text-white">
+                — Kepala Proyek Kanaya City, Sukabumi
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="item4" className="carousel-item w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+              className="w-full"
+            />
+          </div>
+        </div>
+        <div className="flex justify-center w-full py-2 gap-2">
+          <a href="#item1" className="btn btn-xs">
+            1
+          </a>
+          <a href="#item2" className="btn btn-xs">
+            2
+          </a>
+          <a href="#item3" className="btn btn-xs">
+            3
+          </a>
+        </div>
       </div>
     </div>
   );
