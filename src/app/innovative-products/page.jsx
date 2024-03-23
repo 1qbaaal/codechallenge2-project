@@ -117,7 +117,7 @@ export default function InnovativeProduct() {
       </div>
 
       <div>
-        <div className="carousel w-full">
+        <div className="carousel w-full h-[55vh]">
           <div id="item1" className="carousel-item w-full">
             <div className="w-full bg-[url('/car1.jpeg')] object-cover relative ">
               <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
@@ -181,16 +181,10 @@ export default function InnovativeProduct() {
                   untuk pengaplikasiannya. "
                 </p>
                 <p className="mt-4 text-white">
-                — Kepala Proyek Kanaya City, Sukabumi
+                  — Kepala Proyek Kanaya City, Sukabumi
                 </p>
               </div>
             </div>
-          </div>
-          <div id="item4" className="carousel-item w-full">
-            <img
-              src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-              className="w-full"
-            />
           </div>
         </div>
         <div className="flex justify-center w-full py-2 gap-2">
