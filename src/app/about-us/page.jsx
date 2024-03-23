@@ -157,7 +157,7 @@ export default function AboutUs() {
 
       <div className="w-full bg-gray-100 h-[500px] flex flex-col justify-start items-center py-6">
         <h1 className="text-4xl font-bold text-[#b21f29] py-4"> MILESTONE</h1>
-        <ul className="timeline timeline-vertical">
+        <ul className="timeline timeline-vertical pt-10">
           <li>
             <div className="timeline-start">1972</div>
             <div className="timeline-middle">
@@ -181,6 +181,28 @@ export default function AboutUs() {
           </li>
           <li>
             <hr />
+            <div className="timeline-start">1988</div>
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end timeline-box">
+              Supply 240,000 m3 concrete for PLTU Paiton.
+            </div>
+            <hr />
+          </li>
+          <li>
+            <hr />
             <div className="timeline-start">1998</div>
             <div className="timeline-middle">
               <svg
@@ -196,27 +218,9 @@ export default function AboutUs() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">iMac</div>
-            <hr />
-          </li>
-          <li>
-            <hr />
-            <div className="timeline-start">2001</div>
-            <div className="timeline-middle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
+            <div className="timeline-end timeline-box">
+              First Highstrength Concrete {"(Fc'60)"} for Amartapura Project.
             </div>
-            <div className="timeline-end timeline-box">iPod</div>
             <hr />
           </li>
           <li>
@@ -236,7 +240,9 @@ export default function AboutUs() {
                 />
               </svg>
             </div>
-            <div className="timeline-end timeline-box">iPhone</div>
+            <div className="timeline-end timeline-box">
+              Expantion to Sumatra Island.
+            </div>
             <hr />
           </li>
           <li>
@@ -264,8 +270,15 @@ export default function AboutUs() {
       </div>
 
       <div className="grid grid-cols-2 mt-4">
-        <div className="w-full flex relative">
-          <Image src="/rnd1.jpg" width={1000} height={500} />
+        <div className="w-full flex relative pt-10">
+          <Image
+            src="/rnd1.jpg"
+            objectFit="cover"
+            quality={100}
+            width={10000}
+            height={10000}
+            className="w-[1000px] h-[500px]"
+          />
         </div>
         <div className="flex flex-col pl-4 py-10">
           <h1 className="flex justify-center text-3xl text-[#b21f29] font-bold">

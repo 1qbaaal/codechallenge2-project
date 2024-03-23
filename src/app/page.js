@@ -18,7 +18,7 @@ export default function Home() {
             <a href="#slide2" className="btn btn-circle">
               ❮
             </a>
-            <div className="flex flex-col pl-[750px] pb-[250px] pr-[100px] text-white ">
+            <div className="flex flex-col pl-[750px] pb-[150px] pr-[100px] text-white ">
               <h1 className="text-5xl font-bold  ">
                 {" "}
                 WE DELIVER CONCRETE SOLUTIONS{" "}
