@@ -53,17 +53,17 @@ export default function Navbar() {
                       <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link className="hover:text-burnorange" href="/about">
+                      <Link className="hover:text-burnorange" href="/about-us">
                         About Us
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:text-burnorange" href="/product">
+                      <Link className="hover:text-burnorange" href="/innovative-products">
                         Innovative Product
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:text-burnorange" href="#">
+                      <Link className="hover:text-burnorange" href="/teamspage">
                         Teams Page
                       </Link>
                     </li>
