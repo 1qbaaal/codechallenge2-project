@@ -69,7 +69,7 @@ export default function Home() {
             {" "}
             Jayamix by SCG{" "}
           </h1>
-          <p className="text-lg pt-4 text-justify pt-10">
+          <p className="text-lg text-black pt-4 text-justify pt-10">
             PT SCG Readymix Indonesia or Jayamix by SCG has been experienced for
             more than 40 years in the Indonesian construction industry. We
             Deliver Concrete Solutions, is our commitment to provide the right
@@ -85,7 +85,45 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div></div>
+      <Link href="/innovative-products">
+      <div className="flex items-center justify-center relative">
+        <Image
+          src="/prod1.jpg"
+          quality={100}
+          width={10000}
+          height={10000}
+          objectFit="cover"
+          className="w-auto h-[100vh]"
+        />
+        <div className="absolute w-full h-full flex top-0 h-screen text-white flex-col justify-center items-start px-36 pt-10">
+          <h1 className="text-5xl font-bold text-[#cc0000]">
+            {" "}
+            Introducing 
+          </h1>
+          <h1 className="text-5xl font-bold text-[#cc0000] pt-6">
+          Our Products 
+          </h1>
+        </div>
+      </div>
+      </Link>
+      <Link href="/teamspage">
+        <div className="w-full h-full relative">
+          <Image
+            src="/bgcu.jpg"
+            objectFit="cover"
+            quality={100}
+            width={10000}
+            height={10000}
+            className="w-[100vw] h-[100vh]"
+          />
+          <div className="absolute w-full h-full flex flex-col top-0 h-screen text-white justify-center items-center px-60 pt-20">
+            <h1 className="text-5xl font-bold text-[#cc0000]">
+              {" "}
+              <u> Meet Our Team </u>
+            </h1>
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }

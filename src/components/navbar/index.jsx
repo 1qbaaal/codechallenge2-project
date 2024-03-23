@@ -7,7 +7,7 @@ export default function Navbar() {
     <div className="fixed top-0 z-50 w-full">
       <div className="px-32 flex justify-between items-center bg-white">
         <Link href="/">
-        <Image src="/jayamixlogo.png" alt="logo" height={105} width={105}/> 
+          <Image src="/jayamixlogo.png" alt="logo" height={105} width={105} />
         </Link>
         <details className="dropdown">
           <summary className="btn bg-[#b21f29] text-white text-xs rounded-none py-2">
@@ -33,11 +33,10 @@ export default function Navbar() {
           <span>About Us</span>
         </Link>
         <Link href="/innovative-products">
-        <span>Innovative Product</span>  
+          <span>Innovative Product</span>
         </Link>
+        <Link href="/teamspage">
         <span>Teams Page</span>
-        <Link href="/contact-us">
-        <span>Contact Us</span>
         </Link>
       </div>
     </div>
