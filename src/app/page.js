@@ -7,7 +7,7 @@ export default function Home() {
       <div>
         <div className="w-full h-auto relative pt-20">
           <Image
-            src="/bg_ir.jpg"
+            src="/bg_ir2.jpg"
             quality={100}
             loading="lazy"
             objectFit="cover"
