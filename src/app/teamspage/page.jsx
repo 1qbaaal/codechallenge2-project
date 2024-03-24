@@ -6,30 +6,36 @@ export default function TeamsPage() {
   console.log(teams);
 
   return (
-    <div className="w-[80%] h-auto grid grid-cols-2 justify-items-center gap-6 pt-40 px-70">
-      {teams?.results?.map((results, index) => {
-        return (
-          <div key={index}>
-            <div className="">
-              <img
-                src={results.picture.large}
-                alt="profile"
-                className="h-[400px] w-[300px] rounded-lg text-center"
-              />
-              <div className="text-center pb-6">
-                <h1 className="text-lg font-bold">
-                  {results.name.first} {results.name.last}
-                </h1>
-                <h1>
-                  {results.location.city}, {results.location.country}
-                </h1>
-                <h1>{results.cell}</h1>
-                <h1>{results.email}</h1>
+    <div className="w-[80%] h-auto pt-40">
+      <div className="w-full h-auto flex justify-center items-center pt-6">
+        <h1 className="font-bold text-3xl text-[#b21f29]"> OUR TEAM </h1>
+      </div>
+
+      <div className="w-full h-auto flex flex-wrap justify-between gap-6 pt-10">
+        {teams?.results?.map((value, index) => {
+          return (
+            <div key={index}>
+              <div className="">
+                <img
+                  src={value.picture.large}
+                  alt="profile"
+                  className="h-[400px] w-[300px] rounded-lg text-center"
+                />
+                <div className="text-center pb-6">
+                  <h1 className="text-lg font-bold">
+                    {value.name.first} {value.name.last}
+                  </h1>
+                  <h1>
+                    {value.location.city}, {value.location.country}
+                  </h1>
+                  <h1>{value.cell}</h1>
+                  <h1>{value.email}</h1>
+                </div>
               </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </div>
   );
 }

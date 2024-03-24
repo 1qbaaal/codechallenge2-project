@@ -58,7 +58,10 @@ export default function Navbar() {
                       </Link>
                     </li>
                     <li>
-                      <Link className="hover:text-burnorange" href="/innovative-products">
+                      <Link
+                        className="hover:text-burnorange"
+                        href="/innovative-products"
+                      >
                         Innovative Product
                       </Link>
                     </li>
@@ -83,7 +86,7 @@ export default function Navbar() {
         </div>
         {/* Responsive Desktop */}
         <div className="hidden lg:block">
-          <div className=" navbar flex justify-center items-center bg-gray-100/50 text-base text-black font-bold gap-8 px-15 h-10 w-full">
+          <div className=" navbar flex justify-center items-center bg-gray-100/70 text-base text-black font-bold gap-8 px-15 h-10 w-full">
             <Link href="/">
               <span>Home</span>
             </Link>
