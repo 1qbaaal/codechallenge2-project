@@ -57,7 +57,7 @@ export default function Home() {
       <Link href="/innovative-products">
         <div className="flex items-center justify-center relative">
           <Image
-            src="/prod1.jpg"
+            src="/produksi.jpg"
             quality={100}
             loading="lazy"
             width={10000}
