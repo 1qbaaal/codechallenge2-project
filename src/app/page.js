@@ -42,7 +42,7 @@ export default function Home() {
           height={10000}
           className="w-[100vw] h-[100vh]"
         />
-        <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 h-screen text-white items-center lg:px-60 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8">
+        <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 h-screen text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8">
           <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-10">
             {" "}
             Jayamix by SCG{" "}
@@ -114,11 +114,11 @@ export default function Home() {
           </div>
           <div id="item2" className="carousel-item w-full">
             <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
-              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
-                <h1 className="text-white text-3xl">
+              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
+                <h1 className="text-white mobile:text-xs">
                   What our customers are saying about us
                 </h1>
-                <p className=" text-center pt-8 text-lg text-black">
+                <p className=" text-center pt-8 text-lg text-black mobile:text-xs mobile:text-justify sm:text-xs sm:text-justify md:text-sm lg:text-base xl:text-lg">
                   " Kualitas SCG sudah terbukti bagus dengan harga yang
                   terjangkau. Tidak kalah dengan produk - produk lain yang mahal
                   harganya. Selain itu, SCG juga ramah lingkungan karena
@@ -127,7 +127,7 @@ export default function Home() {
                   bisa lebih efisien secara waktu dan tenaga kerja didukung
                   dengan pembelian yang mudah. "
                 </p>
-                <p className="mt-4 text-white">
+                <p className="mt-4 text-white mobile:text-xs mobile:text-black">
                   — Direktur Utama PT. Wadaya Kreasi Sejatera, Kontraktor
                   Sinarmas Land Grand Wisata Bekasi
                 </p>
@@ -136,16 +136,16 @@ export default function Home() {
           </div>
           <div id="item3" className="carousel-item w-full">
             <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
-              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
-                <h1 className="text-white text-3xl">
+              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
+                <h1 className="text-white mobile:text-xs sm:text-xl xl:text-3xl">
                   What our customers are saying about us
                 </h1>
-                <p className=" text-center pt-8 text-lg text-black">
+                <p className=" text-center pt-8 text-lg text-black mobile:text-xs mobile:text-justify sm:text-xs sm:text-justify md:text-sm lg:text-base xl:text-lg">
                   " Kalau dari segi aplikasi Semen SCG mudah diaplikasikan,
                   kedua sangat kokoh, yang ketiga agak pengiritan dari segi
                   untuk pengaplikasiannya. "
                 </p>
-                <p className="mt-4 text-white">
+                <p className="mt-4 text-white mobile:text-xs mobile:text-black">
                   — Kepala Proyek Kanaya City, Sukabumi
                 </p>
               </div>

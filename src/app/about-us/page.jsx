@@ -14,12 +14,14 @@ export default function AboutUs() {
       </div>
 
       <div className="flex justify-center pt-6">
-        <h1 className="font-bold text-4xl text-[#b21f29]">COMPANY PROFILE</h1>
+        <h1 className="font-bold text-4xl text-[#b21f29] mobile:text-xl">
+          COMPANY PROFILE
+        </h1>
       </div>
 
       <div className="flex flex-row-2 text-base pt-10 lg:mx-44">
         <div>
-          <h1 className="text-[20px] ">
+          <h1 className="text-[20px] mobile:text-xs">
             <span className="bg-[#fff0f5] text-[#a9a9a9] ">
               Getting closer and more practical to support the construction of
             </span>{" "}
@@ -52,7 +54,7 @@ export default function AboutUs() {
             className="pt-10 bg-transparent"
           />
         </div>
-        <div className="pl-8 text-justify">
+        <div className="pl-8 text-justify mobile:text-xs mobile:px-6">
           <p className="font-bold">
             WELCOME TO PT.SCG READYMIX INDOENSIA -{" "}
             <span className="text-[#b21f29]">Jayamix by SCG</span>
@@ -137,11 +139,11 @@ export default function AboutUs() {
             objectFit="cover"
             className="opacity-60"
           />
-          <h1 className="w-full h-[60vh] flex justify-center absolute text-[#b21f29] font-bold text-5xl pt-6">
+          <h1 className="w-full h-[60vh] flex justify-center absolute text-[#b21f29] font-bold text-5xl pt-6 mobile:text-xl">
             BUSINESS PHILOSPHY
           </h1>
           <div className="w-full h-[60vh] absolute lg:flex justify-center items-center gap-4 text-white text-lg font-bold sm:grid grid-cols-2 sm:pt-10 mobile:grid-cols-2">
-            <div className="flex flex-col items-center mobile:pt-36">
+            <div className="flex flex-col items-center mobile:pt-20">
               <Image
                 src="/scale.png"
                 width={100}
@@ -321,7 +323,7 @@ export default function AboutUs() {
           />
         </div>
         <div className="flex flex-col pl-4 py-10">
-          <h1 className="flex justify-center text-3xl text-[#b21f29] font-bold">
+          <h1 className="flex justify-center text-3xl text-[#b21f29] font-bold mobile:text-base">
             {" "}
             RESEARCH AND DEVELOPMENT
           </h1>
