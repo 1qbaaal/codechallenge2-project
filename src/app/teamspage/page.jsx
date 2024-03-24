@@ -3,7 +3,7 @@ import { useCreateTeams } from "~/api/useCreateTeams";
 
 export default function TeamsPage() {
   const { teams } = useCreateTeams();
-  console.log(teams);
+  // console.log(teams);
 
   return (
     <div className="w-[80%] h-auto pt-40">
@@ -11,7 +11,7 @@ export default function TeamsPage() {
         <h1 className="font-bold text-3xl text-[#b21f29]"> OUR TEAM </h1>
       </div>
 
-      <div className="w-full h-auto flex flex-wrap justify-between gap-6 pt-10">
+      <div className="w-full h-auto flex flex-wrap justify-center gap-6 pt-10 lg:justify-between">
         {teams?.results?.map((value, index) => {
           return (
             <div key={index}>
@@ -19,6 +19,7 @@ export default function TeamsPage() {
                 <img
                   src={value.picture.large}
                   alt="profile"
+                  loading="lazy"
                   className="h-[400px] w-[300px] rounded-lg text-center"
                 />
                 <div className="text-center pb-6">

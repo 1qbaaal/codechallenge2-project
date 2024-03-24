@@ -9,11 +9,11 @@ export default function Navbar() {
     <nav>
       {/* Responsive Mobile */}
       <div className="fixed top-0 w-full">
-        <div className="px-32 flex justify-between items-center bg-white">
+        <div className="px-32 flex justify-between items-center bg-white mobile:flex mobile:justify-center">
           <Link href="/">
             <Image src="/jayamixlogo.png" alt="logo" height={105} width={105} />
           </Link>
-          <details className="dropdown">
+          <details className="dropdown mobile:hidden">
             <summary className="btn bg-[#b21f29] text-white text-xs rounded-none py-2">
               Languange
               <IoMdArrowDropdown size={20} />

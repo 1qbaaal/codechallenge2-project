@@ -4,14 +4,14 @@ export default function AboutUs() {
   return (
     <div>
       <div className="w-full h-[60vh] flex relative mt-20">
-        <Image src="/bgpg1.jpg" fill={true} quality={100} objectFit="cover" />
+        <Image src="/bgpg1.jpg" fill={true} quality={100} loading="lazy" objectFit="cover" />
       </div>
 
       <div className="flex justify-center pt-6">
         <h1 className="font-bold text-4xl text-[#b21f29]">COMPANY PROFILE</h1>
       </div>
 
-      <div className="flex flex-row-2 text-base pt-10 mx-44">
+      <div className="flex flex-row-2 text-base pt-10 lg:mx-44">
         <div>
           <h1 className="text-[20px] ">
             <span className="bg-[#fff0f5] text-[#a9a9a9] ">
@@ -34,6 +34,7 @@ export default function AboutUs() {
             src="/bgprod2.jpg"
             width={300}
             height={200}
+            loading="lazy"
             className="pt-10"
           />
           <p className="pt-10 font-bold"> ISO Certification:</p>
@@ -41,6 +42,7 @@ export default function AboutUs() {
             src="/iso.jpg"
             width={300}
             height={200}
+            loading="lazy"
             className="pt-10 bg-transparent"
           />
         </div>
@@ -125,6 +127,7 @@ export default function AboutUs() {
             src="/scgabus.jpeg"
             fill={true}
             quality={100}
+            loading="lazy"
             objectFit="cover"
             className="opacity-60"
           />
@@ -133,22 +136,22 @@ export default function AboutUs() {
           </h1>
           <div className="w-full h-[60vh] absolute flex justify-center items-center gap-4 text-white text-lg font-bold">
             <div className="flex flex-col items-center">
-              <Image src="/scale.png" width={100} height={100} />
+              <Image src="/scale.png" width={100} height={100} loading="lazy"/>
               <h1 className="text-[#b21f29]"> ADHERENCE TO FAIRNESS </h1>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/sip.png" width={100} height={100} />
+              <Image src="/sip.png" width={100} height={100} loading="lazy"/>
               <h1> DEDICATION TO EXCELLENCE </h1>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/diamon.png" width={100} height={100} />
+              <Image src="/diamon.png" width={100} height={100} loading="lazy"/>
               <h1 className="text-[#b21f29]">
                 {" "}
                 BELIEF IN THE VALUE OF INDIVIDUALS{" "}
               </h1>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/hand.png" width={100} height={100} />
+              <Image src="/hand.png" width={100} height={100} loading="lazy"/>
               <h1> CONCERN FOR SOCIAL RESPONSIBILITY </h1>
             </div>
           </div>
@@ -275,6 +278,7 @@ export default function AboutUs() {
             src="/rnd1.jpg"
             objectFit="cover"
             quality={100}
+            loading="lazy"
             width={10000}
             height={10000}
             className="w-[1000px] h-[500px]"

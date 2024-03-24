@@ -9,6 +9,7 @@ export default function Home() {
           <Image
             src="/bg-1.jpg"
             quality={100}
+            loading="lazy"
             objectFit="cover"
             width={10000}
             height={10000}
@@ -41,6 +42,7 @@ export default function Home() {
             src="/bg2.webp"
             objectFit="cover"
             quality={100}
+            loading="lazy"
             width={10000}
             height={10000}
             className="w-[100vw] h-[90vh]"
@@ -60,6 +62,7 @@ export default function Home() {
           src="/bg-2.jpg"
           objectFit="cover"
           quality={100}
+          loading="lazy"
           width={10000}
           height={10000}
           className="w-[100vw] h-[100vh]"
@@ -90,6 +93,7 @@ export default function Home() {
           <Image
             src="/prod1.jpg"
             quality={100}
+            loading="lazy"
             width={10000}
             height={10000}
             objectFit="cover"
@@ -106,12 +110,12 @@ export default function Home() {
       <div>
         <div className="carousel w-full h-[55vh]">
           <div id="item1" className="carousel-item w-full">
-            <div className="w-full bg-gradient-to-r from-[#cc0000] to-[#b21f29] object-cover relative ">
+            <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
               <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
                 <h1 className="text-white text-3xl">
                   What our customers are saying about us
                 </h1>
-                <p className=" text-center pt-8 text-lg text-white">
+                <p className=" text-center pt-8 text-lg text-black">
                   " Sinarmas memiliki banyak proyek di Indonesia seperti di BSD,
                   Jakarta,Tangerang, Kota Wisata maupun Grand Wisata. BSD
                   sendiri memiliki banyak pekerjaan proyek yang sudah selesai
@@ -135,12 +139,12 @@ export default function Home() {
             </div>
           </div>
           <div id="item2" className="carousel-item w-full">
-            <div className="w-full bg-gradient-to-r from-[#cc0000] to-[#b21f29] object-cover relative ">
+            <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
               <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
                 <h1 className="text-white text-3xl">
                   What our customers are saying about us
                 </h1>
-                <p className=" text-center pt-8 text-lg text-white">
+                <p className=" text-center pt-8 text-lg text-black">
                   " Kualitas SCG sudah terbukti bagus dengan harga yang
                   terjangkau. Tidak kalah dengan produk - produk lain yang mahal
                   harganya. Selain itu, SCG juga ramah lingkungan karena
@@ -157,12 +161,12 @@ export default function Home() {
             </div>
           </div>
           <div id="item3" className="carousel-item w-full">
-            <div className="w-full bg-gradient-to-r from-[#cc0000] to-[#b21f29] object-cover relative ">
+            <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
               <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
                 <h1 className="text-white text-3xl">
                   What our customers are saying about us
                 </h1>
-                <p className=" text-center pt-8 text-lg text-white">
+                <p className=" text-center pt-8 text-lg text-black">
                   " Kalau dari segi aplikasi Semen SCG mudah diaplikasikan,
                   kedua sangat kokoh, yang ketiga agak pengiritan dari segi
                   untuk pengaplikasiannya. "
