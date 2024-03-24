@@ -16,7 +16,7 @@ export default function InnovativeProduct() {
       </div>
 
       <div className="flex flex-col justify-start items-center w-full h-[40vh] text-justify">
-        <h1 className="pt-10 text-[#b21f29] text-3xl font-bold">
+        <h1 className="pt-10 text-[#b21f29] text-3xl font-bold mobile:text-sm">
           {" "}
           JAYAMIX INNOVATIVE PRODUCT{" "}
         </h1>
@@ -29,7 +29,7 @@ export default function InnovativeProduct() {
             exceed industry standards and meet the evolving needs of modern
             construction projects.
           </p>
-          <p className="py-10 font-bold mobile:pt-2"> Our Product: </p>
+          <p className="py-10 font-bold mobile:pt-10"> Our Product: </p>
         </div>
       </div>
 

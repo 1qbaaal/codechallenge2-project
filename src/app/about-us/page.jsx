@@ -43,9 +43,9 @@ export default function AboutUs() {
             width={300}
             height={200}
             loading="lazy"
-            className="pt-10"
+            className="pt-10 mobile:hidden"
           />
-          <p className="pt-10 font-bold"> ISO Certification:</p>
+          <p className="pt-10 font-bold mobile:text-xs"> ISO Certification:</p>
           <Image
             src="/iso.jpg"
             width={300}
@@ -311,7 +311,7 @@ export default function AboutUs() {
       </div>
 
       <div className="grid grid-cols-2 mt-4">
-        <div className="w-full flex relative pt-10">
+        <div className="w-full flex relative pt-10 mobile:hidden">
           <Image
             src="/rnd1.jpg"
             objectFit="cover"
@@ -322,29 +322,29 @@ export default function AboutUs() {
             className="w-[1000px] h-[500px]"
           />
         </div>
-        <div className="flex flex-col pl-4 py-10">
+        <div className="flex flex-col pl-4 py-10 mobile:w-[100vw] mobile:text-justify">
           <h1 className="flex justify-center text-3xl text-[#b21f29] font-bold mobile:text-base">
             {" "}
             RESEARCH AND DEVELOPMENT
           </h1>
-          <h1 className="pt-6 text-black font-bold text-lg">
+          <h1 className="pt-6 text-black font-bold text-lg mobile:text-center">
             Jayamix Concrete Innovations
           </h1>
-          <p className="pt-4">
+          <p className="pt-4 mobile:text-xs mobile:px-6">
             Jayamix concrete is researched and developed by our experts to
             present a variety of concrete according to the needs and
             environmental conditions of Indonesia. Listening to your needs is
             the base of Jayamix innovation to provide the right concrete
             products and services.
           </p>
-          <p className="pt-4">
+          <p className="pt-4 mobile:text-xs mobile:px-6">
             SCG has been in the building materials business since 1910s in
             Thailand. More than 400 researchers and product developers,
             including PhDs who work in several research centers are working
             together to produce concrete products and services that are not only
             effective and efficient, but also synergize with the environment
           </p>
-          <p className="pt-4">
+          <p className="pt-4 mobile:text-xs mobile:px-6">
             In understanding and identifying the concrete that the construction
             world needs today, the research team internally collaborates with
             the business development, marketing, and production teams to produce
@@ -352,7 +352,7 @@ export default function AboutUs() {
             we also collaborate with academic institutions and government
             organizations to support our innovations.
           </p>
-          <p className="pt-4">
+          <p className="pt-4 mobile:text-xs mobile:px-6">
             The results of R&D team such as low heat concrete for mass pouring
             and synthetic fiber concrete that makes pouring without
             reinforcement possible. You can explore other Jayamix by SCG
