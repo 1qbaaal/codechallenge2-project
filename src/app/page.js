@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div className="w-full h- relative">
         <Image
-          src="/bg-2.jpg"
+          src="/city2.jpg"
           objectFit="cover"
           quality={100}
           loading="lazy"
@@ -43,7 +43,7 @@ export default function Home() {
           className="w-[100vw] h-[100vh]"
         />
         <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 h-screen text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8">
-          <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-10">
+          <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-20">
             {" "}
             Jayamix by SCG{" "}
           </h1>
