@@ -32,22 +32,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full h- relative">
-        <Image
-          src="/city2.jpg"
-          objectFit="cover"
-          quality={100}
-          loading="lazy"
-          width={10000}
-          height={10000}
-          className="w-[100vw] h-[100vh]"
-        />
+      <div className="w-full h-[60vh] bg-gradient-to-r from-white via-gray-200 to-red-200 relative">
         <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 h-screen text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8">
-          <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-20">
+          <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-10">
             {" "}
             Jayamix by SCG{" "}
           </h1>
-          <p className="text-lg text-black pt-4 text-justify pt-14 mobile:text-base">
+          <p className="text-lg text-black pt-8 text-justify pt-14 mobile:text-base">
             PT SCG Readymix Indonesia or Jayamix by SCG has been experienced for
             more than 40 years in the Indonesian construction industry. We
             Deliver Concrete Solutions, is our commitment to provide the right
