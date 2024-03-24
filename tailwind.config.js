@@ -16,6 +16,9 @@ module.exports = {
       xl: "1280px",
     },
   },
+  daisyui: {
+    themes: ["light"],
+  },
   plugins: [],
-  plugins: [daisyui]
-}
+  plugins: [daisyui],
+};

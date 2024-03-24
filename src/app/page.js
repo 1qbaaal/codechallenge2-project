@@ -13,13 +13,13 @@ export default function Home() {
             objectFit="cover"
             width={10000}
             height={10000}
-            className="w-[100vw] h-[90vh]"
+            className="w-[100vw] h-auto"
           />
           <div className="absolute flex justify-center items-center w-full h-full">
             <a href="#slide2" className="btn btn-circle">
               ❮
             </a>
-            <div className="flex flex-col pl-[750px] pb-[150px] pr-[100px] text-white ">
+            <div className="flex flex-col pl-[750px] pb-[200px] pr-[100px] text-white ">
               <h1 className="text-5xl font-bold  ">
                 {" "}
                 WE DELIVER CONCRETE SOLUTIONS{" "}
@@ -45,7 +45,7 @@ export default function Home() {
             loading="lazy"
             width={10000}
             height={10000}
-            className="w-[100vw] h-[90vh]"
+            className="w-[100vw] h-auto"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">
