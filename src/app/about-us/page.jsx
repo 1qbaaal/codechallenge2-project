@@ -4,7 +4,13 @@ export default function AboutUs() {
   return (
     <div>
       <div className="w-full h-[60vh] flex relative mt-20">
-        <Image src="/bgpg1.jpg" fill={true} quality={100} loading="lazy" objectFit="cover" />
+        <Image
+          src="/bgpg1.jpg"
+          fill={true}
+          quality={100}
+          loading="lazy"
+          objectFit="cover"
+        />
       </div>
 
       <div className="flex justify-center pt-6">
@@ -134,31 +140,61 @@ export default function AboutUs() {
           <h1 className="w-full h-[60vh] flex justify-center absolute text-[#b21f29] font-bold text-5xl pt-6">
             BUSINESS PHILOSPHY
           </h1>
-          <div className="w-full h-[60vh] absolute flex justify-center items-center gap-4 text-white text-lg font-bold">
-            <div className="flex flex-col items-center">
-              <Image src="/scale.png" width={100} height={100} loading="lazy"/>
-              <h1 className="text-[#b21f29]"> ADHERENCE TO FAIRNESS </h1>
+          <div className="w-full h-[60vh] absolute lg:flex justify-center items-center gap-4 text-white text-lg font-bold sm:grid grid-cols-2 sm:pt-10 mobile:grid-cols-2">
+            <div className="flex flex-col items-center mobile:pt-36">
+              <Image
+                src="/scale.png"
+                width={100}
+                height={100}
+                loading="lazy"
+                className="mobile:size-[50px]"
+              />
+              <h1 className="text-[#b21f29] mobile:text-xs">
+                {" "}
+                ADHERENCE TO FAIRNESS{" "}
+              </h1>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/sip.png" width={100} height={100} loading="lazy"/>
-              <h1> DEDICATION TO EXCELLENCE </h1>
+              <Image
+                src="/sip.png"
+                width={100}
+                height={100}
+                loading="lazy"
+                className="mobile:size-[50px]"
+              />
+              <h1 className="mobile:text-xs"> DEDICATION TO EXCELLENCE </h1>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/diamon.png" width={100} height={100} loading="lazy"/>
-              <h1 className="text-[#b21f29]">
+              <Image
+                src="/diamon.png"
+                width={100}
+                height={100}
+                loading="lazy"
+                className="mobile:size-[50px]"
+              />
+              <h1 className="text-[#b21f29] mobile:text-xs">
                 {" "}
                 BELIEF IN THE VALUE OF INDIVIDUALS{" "}
               </h1>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/hand.png" width={100} height={100} loading="lazy"/>
-              <h1> CONCERN FOR SOCIAL RESPONSIBILITY </h1>
+              <Image
+                src="/hand.png"
+                width={100}
+                height={100}
+                loading="lazy"
+                className="mobile:size-[50px]"
+              />
+              <h1 className="mobile:text-xs">
+                {" "}
+                CONCERN FOR SOCIAL RESPONSIBILITY{" "}
+              </h1>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="w-full bg-gray-100 h-[500px] flex flex-col justify-start items-center py-6">
+      <div className="w-full bg-gray-100 h-[500px] flex flex-col justify-start items-center py-6 mobile:text-xs">
         <h1 className="text-4xl font-bold text-[#b21f29] py-4"> MILESTONE</h1>
         <ul className="timeline timeline-vertical pt-10">
           <li>

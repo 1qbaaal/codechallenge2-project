@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <div>
-        <div className="w-full h-[100vh] relative pt-20">
+        <div className="w-full h-auto relative pt-20">
           <Image
             src="/bg_ir.jpg"
             quality={100}
@@ -16,13 +16,13 @@ export default function Home() {
             className="w-[100vw] h-auto"
           />
         </div>
-        <div className="absolute w-full h-[100vh] flex justify-center items-center top-0 pt-40 px-20">
-          <div className="flex flex-col text-black pr-[500px] text-left">
-            <h1 className="text-5xl font-bold">
+        <div className="absolute w-full lg:h-[100vh] flex justify-center items-center top-0 sm:pt-32 md:pt-40 lg:pt-0 px-20 mobile:pt-32">
+          <div className="flex flex-col text-black lg:pr-[500px] text-left ">
+            <h1 className="text-5xl font-bold mobile:text-xs">
               {" "}
               WE DELIVER CONCRETE SOLUTIONS{" "}
             </h1>
-            <p className="text-lg pt-4 text-justify">
+            <p className="text-lg pt-4 text-justify mobile:text-xs ">
               With experince more than 40 years from jayamix as the readymix
               concrete supplier in Indoneisa as well acquired by SCG which
               experienced more than 100 years in Thailand, lead us to keep
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full h-full relative">
+      <div className="w-full h- relative">
         <Image
           src="/bg-2.jpg"
           objectFit="cover"
@@ -42,12 +42,12 @@ export default function Home() {
           height={10000}
           className="w-[100vw] h-[100vh]"
         />
-        <div className="absolute flex flex-col top-0 h-screen text-white items-center px-60 pt-20">
-          <h1 className="text-5xl font-bold text-[#cc0000]">
+        <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 h-screen text-white items-center lg:px-60 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8">
+          <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-10">
             {" "}
             Jayamix by SCG{" "}
           </h1>
-          <p className="text-lg text-black pt-4 text-justify pt-10">
+          <p className="text-lg text-black pt-4 text-justify pt-14 mobile:text-base">
             PT SCG Readymix Indonesia or Jayamix by SCG has been experienced for
             more than 40 years in the Indonesian construction industry. We
             Deliver Concrete Solutions, is our commitment to provide the right
@@ -74,10 +74,9 @@ export default function Home() {
             objectFit="cover"
             className="w-auto h-[100vh]"
           />
-          <div className="absolute w-full h-full flex top-0 h-screen text-white flex-col justify-center items-start px-36 pt-10">
-            <h1 className="text-5xl font-bold text-[#cc0000]"> Introducing</h1>
-            <h1 className="text-5xl font-bold text-[#cc0000] pt-6">
-              Our Products
+          <div className="absolute w-full h-full flex xl:flex-col top-0 h-screen text-white sm:justify-center xl:justify-start xl:items-center xl:px-36 pt-10 mobile:justify-center">
+            <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-2xl">
+              Introducing Our Products
             </h1>
           </div>
         </div>
@@ -86,11 +85,11 @@ export default function Home() {
         <div className="carousel w-full h-[55vh]">
           <div id="item1" className="carousel-item w-full">
             <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
-              <div className="absolute  w-full h-[55vh] flex flex-col items-center pt-6 px-32">
-                <h1 className="text-white text-3xl">
+              <div className="absolute w-full h-[55vh] flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
+                <h1 className="text-white text-3xl mobile:text-xs sm:text-xl xl:text-3xl">
                   What our customers are saying about us
                 </h1>
-                <p className=" text-center pt-8 text-lg text-black">
+                <p className=" text-center pt-8 text-lg text-black mobile:text-xs mobile:text-justify sm:text-xs sm:text-justify md:text-sm lg:text-base xl:text-lg">
                   " Sinarmas memiliki banyak proyek di Indonesia seperti di BSD,
                   Jakarta,Tangerang, Kota Wisata maupun Grand Wisata. BSD
                   sendiri memiliki banyak pekerjaan proyek yang sudah selesai
@@ -107,7 +106,7 @@ export default function Home() {
                   juga bisa lebih hemat secara waktu dan tenaga kerja, secara
                   pembelian juga praktis dan mudah. "
                 </p>
-                <p className="mt-4 text-white">
+                <p className="mt-4 text-white mobile:text-xs mobile:text-black">
                   — Bapak Purwanto – Quantity Surveyor Commercial Sinarmasland
                 </p>
               </div>

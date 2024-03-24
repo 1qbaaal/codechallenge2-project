@@ -20,7 +20,7 @@ export default function InnovativeProduct() {
           {" "}
           JAYAMIX INNOVATIVE PRODUCT{" "}
         </h1>
-        <div className="lg:px-52 px-10 py-10 text-lg mobile:px-10 mobile:text-base ">
+        <div className="lg:px-52 px-10 py-10 text-lg mobile:px-10 mobile:text-xs">
           <p>
             Introducing our concrete innovations, our cutting-edge products
             revolutionize the construction industry by offering unparalleled
@@ -52,7 +52,12 @@ export default function InnovativeProduct() {
             <h1 className=" font-bold text-lg">Jayamix Super Concrete</h1>
             <p className="text-sm"> Easy Flow Concrete</p>
             <div className="rounded-full flex items-center mt-8 w-[200px] h-[100px] relative ">
-              <Image src="/jsc.jpg" fill={true} loading="lazy" className="rounded-full mx-6" />
+              <Image
+                src="/jsc.jpg"
+                fill={true}
+                loading="lazy"
+                className="rounded-full mx-6"
+              />
             </div>
           </div>
 
@@ -73,7 +78,12 @@ export default function InnovativeProduct() {
             <h1 className=" font-bold text-lg"> Jayamix Instant Concrete</h1>
             <p className="text-sm"> Instant Concrete</p>
             <div className="rounded-full flex items-center mt-8 w-[200px] h-[100px] relative">
-              <Image src="/bi.webp" fill={true} loading="lazy" className="rounded-full mx-6" />
+              <Image
+                src="/bi.webp"
+                fill={true}
+                loading="lazy"
+                className="rounded-full mx-6"
+              />
             </div>
           </div>
 
