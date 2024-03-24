@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <div className="carousel w-full h-auto pt-20">
-        <div id="slide1" className="carousel-item relative w-full">
+      <div>
+        <div className="w-full h-[100vh] relative pt-20">
           <Image
-            src="/bg-1.jpg"
+            src="/bg_ir.jpg"
             quality={100}
             loading="lazy"
             objectFit="cover"
@@ -15,45 +15,20 @@ export default function Home() {
             height={10000}
             className="w-[100vw] h-auto"
           />
-          <div className="absolute flex justify-center items-center w-full h-full">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <div className="flex flex-col pl-[750px] pb-[200px] pr-[100px] text-white ">
-              <h1 className="text-5xl font-bold  ">
-                {" "}
-                WE DELIVER CONCRETE SOLUTIONS{" "}
-              </h1>
-              <p className="text-base pt-4 text-justify">
-                With experince more than 40 years from jayamix as the readymix
-                concrete supplier in Indoneisa as well acquired by SCG which
-                experienced more than 100 years in Thailand, lead us to keep
-                innovating our concrete products to support various development
-                in Indonesia.
-              </p>
-            </div>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <Image
-            src="/bg2.webp"
-            objectFit="cover"
-            quality={100}
-            loading="lazy"
-            width={10000}
-            height={10000}
-            className="w-[100vw] h-auto"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
+        <div className="absolute w-full h-[100vh] flex justify-center items-center top-0 pt-40 px-20">
+          <div className="flex flex-col text-black pr-[500px] text-left">
+            <h1 className="text-5xl font-bold">
+              {" "}
+              WE DELIVER CONCRETE SOLUTIONS{" "}
+            </h1>
+            <p className="text-lg pt-4 text-justify">
+              With experince more than 40 years from jayamix as the readymix
+              concrete supplier in Indoneisa as well acquired by SCG which
+              experienced more than 100 years in Thailand, lead us to keep
+              innovating our concrete products to support various development in
+              Indonesia.
+            </p>
           </div>
         </div>
       </div>
