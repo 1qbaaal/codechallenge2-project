@@ -10,6 +10,7 @@ export default function AboutUs() {
           quality={100}
           loading="lazy"
           objectFit="cover"
+          alt="Gambar aboutus"
         />
       </div>
 
@@ -44,6 +45,7 @@ export default function AboutUs() {
             height={200}
             loading="lazy"
             className="pt-10 mobile:hidden"
+            alt="Gambar Mobil"
           />
           <p className="pt-10 font-bold mobile:text-xs"> ISO Certification:</p>
           <Image
@@ -52,6 +54,7 @@ export default function AboutUs() {
             height={200}
             loading="lazy"
             className="pt-10 bg-transparent"
+            alt="Gambar Sertifikat"
           />
         </div>
         <div className="pl-8 text-justify mobile:text-xs mobile:px-6">
@@ -138,6 +141,7 @@ export default function AboutUs() {
             loading="lazy"
             objectFit="cover"
             className="opacity-60"
+            alt="Gambar Hero About us"
           />
           <h1 className="w-full h-[60vh] flex justify-center absolute text-[#b21f29] font-bold text-5xl pt-6 mobile:text-xl">
             BUSINESS PHILOSPHY
@@ -150,6 +154,7 @@ export default function AboutUs() {
                 height={100}
                 loading="lazy"
                 className="mobile:size-[50px]"
+                alt="Gambar Bussiness"
               />
               <h1 className="text-[#b21f29] mobile:text-xs">
                 {" "}
@@ -163,6 +168,7 @@ export default function AboutUs() {
                 height={100}
                 loading="lazy"
                 className="mobile:size-[50px]"
+                alt="Gambar bussines 1"
               />
               <h1 className="mobile:text-xs"> DEDICATION TO EXCELLENCE </h1>
             </div>
@@ -173,6 +179,7 @@ export default function AboutUs() {
                 height={100}
                 loading="lazy"
                 className="mobile:size-[50px]"
+                alt="Gambar bussines 2"
               />
               <h1 className="text-[#b21f29] mobile:text-xs">
                 {" "}
@@ -186,6 +193,7 @@ export default function AboutUs() {
                 height={100}
                 loading="lazy"
                 className="mobile:size-[50px]"
+                alt="Gambar bussines 3"
               />
               <h1 className="mobile:text-xs">
                 {" "}
@@ -320,6 +328,7 @@ export default function AboutUs() {
             width={10000}
             height={10000}
             className="w-[1000px] h-[500px]"
+            alt="Gambar RND"
           />
         </div>
         <div className="flex flex-col pl-4 py-10 mobile:w-[100vw] mobile:text-justify">

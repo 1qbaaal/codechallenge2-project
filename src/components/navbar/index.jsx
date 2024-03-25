@@ -20,10 +20,10 @@ export default function Navbar() {
             </summary>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 w-52">
               <li>
-                <a>English</a>
+                <span>English</span>
               </li>
               <li>
-                <a>Indonesia</a>
+                <span>Indonesia</span>
               </li>
             </ul>
           </details>
@@ -53,7 +53,7 @@ export default function Navbar() {
                       <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link className="hover:text-burnorange" href="/about-us">
+                      <Link className="hover:text-burnorange" href="/aboutus">
                         About Us
                       </Link>
                     </li>
@@ -90,7 +90,7 @@ export default function Navbar() {
             <Link href="/">
               <span>Home</span>
             </Link>
-            <Link href="/about-us">
+            <Link href="/aboutus">
               <span>About Us</span>
             </Link>
             <Link href="/innovative-products">

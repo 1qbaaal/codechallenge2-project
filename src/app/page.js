@@ -14,6 +14,7 @@ export default function Home() {
             width={10000}
             height={10000}
             className="w-[100vw] h-auto"
+            alt="Gambar Hero"
           />
         </div>
         <div className="absolute w-full lg:h-[100vh] flex justify-center items-center top-0 sm:pt-32 md:pt-40 lg:pt-0 px-20 mobile:pt-32">
@@ -64,6 +65,7 @@ export default function Home() {
             height={10000}
             objectFit="cover"
             className="w-auto h-[100vh]"
+            alt="Gambar"
           />
           <div className="absolute w-full h-full flex xl:flex-col top-0 h-screen text-white sm:justify-center xl:justify-start xl:items-center xl:px-36 pt-10 mobile:justify-center">
             <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-2xl">

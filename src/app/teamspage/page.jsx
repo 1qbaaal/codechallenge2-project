@@ -1,5 +1,6 @@
 "use client";
 import { useCreateTeams } from "~/api/useCreateTeams";
+import Image from "next/image";
 
 export default function TeamsPage() {
   const { teams } = useCreateTeams();
@@ -16,7 +17,7 @@ export default function TeamsPage() {
           return (
             <div key={index}>
               <div className="">
-                <img
+                <Image
                   src={value.picture.large}
                   alt="profile"
                   loading="lazy"

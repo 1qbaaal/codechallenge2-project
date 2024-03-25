@@ -12,6 +12,7 @@ export default function InnovativeProduct() {
           quality={100}
           objectFit="cover"
           objectPosition="center"
+          alt="Gambar Hero Product"
         />
       </div>
 
@@ -44,6 +45,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 1"
               />
             </div>
           </div>
@@ -57,6 +59,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 2"
               />
             </div>
           </div>
@@ -70,6 +73,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 3"
               />
             </div>
           </div>
@@ -83,6 +87,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 4"
               />
             </div>
           </div>
@@ -96,6 +101,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 5"
               />
             </div>
           </div>
@@ -109,6 +115,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 6"
               />
             </div>
           </div>
@@ -122,6 +129,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 7"
               />
             </div>
           </div>
@@ -135,6 +143,7 @@ export default function InnovativeProduct() {
                 fill={true}
                 loading="lazy"
                 className="rounded-full mx-6"
+                alt="Gambar Product 8"
               />
             </div>
           </div>
