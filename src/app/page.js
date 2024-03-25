@@ -49,7 +49,7 @@ export default function Home() {
             infrastructure construction with more than 50 batching plants and
             600 mixer trucks spread across cities in Indonesia.{" "}
             <Link href="/aboutus" className="text-blue-500">
-              <u>Read More</u>
+              <span><u>Read More</u></span>
             </Link>
           </p>
         </div>
@@ -73,7 +73,6 @@ export default function Home() {
           </div>
         </div>
       </Link>
-      <div>
         <div className="carousel w-full h-[55vh]">
           <div id="item1" className="carousel-item w-full">
             <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
@@ -155,7 +154,7 @@ export default function Home() {
             3
           </a>
         </div>
-      </div>
+
       <div className="">
         <section className="my-8 dark:bg-gray-100 dark:text-gray-800">
           <div className="container flex flex-col items-center p-4 mx-auto space-y-6 md:p-8">
