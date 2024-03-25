@@ -49,7 +49,6 @@ export default function Home() {
             infrastructure construction with more than 50 batching plants and
             600 mixer trucks spread across cities in Indonesia.{" "}
             <Link href="/aboutus" className="text-blue-500">
-              {" "}
               <u>Read More</u>
             </Link>
           </p>
