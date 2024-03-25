@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </div>
       <Link href="/innovative-products">
-        <div className="flex items-center justify-center relative">
+        <div className="flex items-center justify-center relative ">
           <Image
             src="/produksi.jpg"
             quality={100}
@@ -64,7 +64,7 @@ export default function Home() {
             width={10000}
             height={10000}
             objectFit="cover"
-            className="w-auto h-[100vh]"
+            className="w-auto h-[100vh] mobile:h-[20%]"
             alt="Gambar"
           />
           <div className="absolute w-full h-full flex xl:flex-col top-0 h-screen text-white sm:justify-center xl:justify-start xl:items-center xl:px-36 pt-10 mobile:justify-center">
@@ -183,16 +183,6 @@ export default function Home() {
                 <p className="text-sm leading-tight dark:text-gray-700 text-center">
                   President Director Indinesia
                 </p>
-                <a
-                  className="flex items-center py-2 space-x-1 text-sm dark:text-violet-600"
-                  href="/"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  ></path>
-                </a>
               </div>
             </div>
           </div>
