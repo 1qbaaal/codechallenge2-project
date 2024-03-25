@@ -48,7 +48,7 @@ export default function Home() {
             (bagged concrete) for residential, office building, up to
             infrastructure construction with more than 50 batching plants and
             600 mixer trucks spread across cities in Indonesia.{" "}
-            <Link href="/about-us" className="text-blue-500">
+            <Link href="/aboutus" className="text-blue-500">
               {" "}
               <u>Read More</u>
             </Link>
