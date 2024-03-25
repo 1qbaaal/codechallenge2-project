@@ -33,8 +33,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full h-[60vh] bg-gradient-to-r from-white via-gray-200 to-red-200 relative mobile:h-[55vh]">
-        <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8 ">
+      <div className="w-full h-[60vh] bg-gradient-to-r from-white via-gray-200 to-red-200 mobile:h-[55vh]">
+        <div className="lg:h-[100vh] flex flex-col items-center top-0 text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8 ">
           <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-10">
             {" "}
             Jayamix by SCG{" "}
@@ -77,8 +77,8 @@ export default function Home() {
       </Link>
       <div className="carousel w-full h-[55vh] mobile:h-[50vh]">
         <div id="item1" className="carousel-item w-full">
-          <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
-            <div className="absolute w-full flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
+          <div className="bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover ">
+            <div className="flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
               <h1 className="text-white text-3xl mobile:text-xs sm:text-xl xl:text-3xl">
                 What our customers are saying about us
               </h1>
