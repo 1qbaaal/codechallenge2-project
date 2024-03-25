@@ -75,10 +75,10 @@ export default function Home() {
           </div>
         </div>
       </Link>
-      <div className="carousel w-full h-[55vh]">
+      <div className="carousel w-full h-[55vh] mobile:h-[50vh]">
         <div id="item1" className="carousel-item w-full">
           <div className="w-full bg-gradient-to-r from-[#b21f29] via-gray-400 to-white object-cover relative ">
-            <div className="absolute w-full h-[55vh] flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
+            <div className="absolute w-full flex flex-col items-center pt-6 mobile:px-6 sm:px-32">
               <h1 className="text-white text-3xl mobile:text-xs sm:text-xl xl:text-3xl">
                 What our customers are saying about us
               </h1>
