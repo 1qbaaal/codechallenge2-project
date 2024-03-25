@@ -29,7 +29,7 @@ export default function Navbar() {
           </details>
         </div>
         <div className="lg:hidden">
-          <div className="relative flex items-center justify-center rounded-b-full bg-blue-100 px-24 text-black shadow">
+          <div className="relative flex items-center justify-center rounded-b-full px-24 text-black">
             <div className="absolute left-10 z-50 flex">
               <div className="drawer">
                 <input

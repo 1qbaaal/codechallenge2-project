@@ -8,7 +8,7 @@ export default function Home() {
         <div className="w-full h-auto relative pt-20">
           <Image
             src="/bg_ir2.jpg"
-            quality={100}
+            // quality={100}
             loading="lazy"
             // objectFit="cover"
             width={500}
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="flex items-center justify-center relative ">
           <Image
             src="/produksi.jpg"
-            quality={100}
+            quality={50}
             loading="lazy"
             width={500}
             height={500}
