@@ -33,8 +33,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full h-[60vh] bg-gradient-to-r from-white via-gray-200 to-red-200 relative">
-        <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8">
+      <div className="w-full h-[60vh] bg-gradient-to-r from-white via-gray-200 to-red-200 relative mobile:h-[55vh]">
+        <div className="absolute w-full lg:h-[100vh] flex flex-col items-center top-0 text-white items-center lg:px-32 pt-6 sm:pt-10 lg:pt-0 sm:px-20 lg:px-10 xl:px-32 mobile:px-8 ">
           <h1 className="text-5xl font-bold text-[#cc0000] mobile:text-base lg:pt-10">
             {" "}
             Jayamix by SCG{" "}
