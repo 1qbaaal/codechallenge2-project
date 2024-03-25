@@ -10,7 +10,7 @@ export default function Home() {
             src="/bg_ir2.jpg"
             quality={100}
             loading="lazy"
-            objectFit="cover"
+            // objectFit="cover"
             width={10000}
             height={10000}
             className="w-[100vw] h-auto"
@@ -62,7 +62,7 @@ export default function Home() {
             loading="lazy"
             width={10000}
             height={10000}
-            objectFit="cover"
+            // objectFit="cover"
             className="w-auto h-[100vh] mobile:h-[20%]"
             alt="Gambar"
           />

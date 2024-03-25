@@ -10,7 +10,7 @@ export default function InnovativeProduct() {
           fill={true}
           loading="lazy"
           quality={100}
-          objectFit="cover"
+          // objectFit="cover"
           objectPosition="center"
           alt="Gambar Hero Product"
         />

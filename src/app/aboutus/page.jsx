@@ -9,7 +9,7 @@ export default function AboutUs() {
           fill={true}
           quality={100}
           loading="lazy"
-          objectFit="cover"
+          // objectFit="cover"
           alt="Gambar aboutus"
         />
       </div>
@@ -139,7 +139,7 @@ export default function AboutUs() {
             fill={true}
             quality={100}
             loading="lazy"
-            objectFit="cover"
+            // objectFit="cover"
             className="opacity-60"
             alt="Gambar Hero About us"
           />
@@ -322,7 +322,7 @@ export default function AboutUs() {
         <div className="w-full flex relative pt-10 mobile:hidden">
           <Image
             src="/rnd1.jpg"
-            objectFit="cover"
+            // objectFit="cover"
             quality={100}
             loading="lazy"
             width={10000}
